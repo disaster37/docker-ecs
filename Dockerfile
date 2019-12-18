@@ -18,7 +18,7 @@ RUN \
     pip install virtualenv
     
 RUN \
-    git clone https://github.com/elastic/ecs.git -b ${ECS_VERSION}
+    git clone https://github.com/elastic/ecs.git -b ${ECS_VERSION} &&\
     cd ecs &&\
     make setup &&\
     make generator
