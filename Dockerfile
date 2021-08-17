@@ -27,7 +27,7 @@ RUN \
 USER user
     
 RUN \
-    cd /code
+    cd /code &&\
     git clone https://github.com/elastic/ecs.git -b ${ECS_VERSION} &&\
     cd ecs &&\
     make setup &&\
