@@ -6,7 +6,7 @@ ARG http_proxy
 ARG https_proxy
 
 ENV \
-    ECS_VERSION=v1.12.1
+    ECS_VERSION=v8.8.0
 
 
 # Install package needed by ecs
