@@ -30,7 +30,6 @@ RUN \
     cd /code &&\
     git clone https://github.com/elastic/ecs.git -b ${ECS_VERSION} &&\
     cd ecs &&\
-    make setup &&\
     make generator
     
 WORKDIR "/code/ecs"
